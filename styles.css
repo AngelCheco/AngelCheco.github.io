@@ -1,0 +1,25 @@
+html,body{
+	margin: auto;
+}
+body{
+	padding-top: 100px;
+}
+*{
+	margin: auto;
+	box-sizing: border-box;
+	font-family: "Avenir";
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+ul>li{
+	display: inline-block;
+}
+ul>li:after{
+	content: "|";
+}
+ul>li:last-child:after{
+	content: "";
+}
